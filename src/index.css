@@ -31,7 +31,7 @@ body {
 }
 
 .links__button {
-  @apply cursor-pointer transition-all duration-500 bg-neutral-grey text-lg font-semibold w-full p-3 rounded-lg hover:bg-primary hover:text-neutral-dark-grey ;
+  @apply cursor-pointer transition-all duration-500 bg-neutral-grey text-lg font-semibold w-full p-3 rounded-lg focus:outline-none focus:bg-primary focus:text-neutral-dark-grey hover:bg-primary hover:text-neutral-dark-grey ;
 }
 
 
